@@ -17,14 +17,5 @@ pipeline {
              echo 'i'm deploying'
              }
          }
-         stage('install'){
-        steps{
-        echo 'i'm installing'
-        }
-        }
-        stage('test'){
-        steps{
-        echo 'i'm testing'
-        }
-        }
+       
     }
