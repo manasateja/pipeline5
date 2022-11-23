@@ -4,18 +4,18 @@ pipeline {
     stages {
         stage('validate') {
             steps {
-                echo 'i'm validating'
+                echo 'i validating'
             }
         }
         stage('compile'){
           steps{
-           echo 'i'm compiling'
+           echo 'i compiling'
             }
         }
         stage('deploy'){
             steps{
-             echo 'i'm deploying'
+             echo 'im deploying'
              }
          }
-       
+       }
     }
